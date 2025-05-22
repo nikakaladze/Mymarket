@@ -1,6 +1,7 @@
 .brand_collection_container {
   margin-top: 1.5rem;
-  padding-right: 10px;
+  display: flex;
+  gap: 20px;
 }
 
 @media (min-width: 768px) {
@@ -25,4 +26,60 @@
     border-radius: 50%;
     border: 2px solid #F2F3F6;
     background-color: #ffffff;
+
+}
+
+/* /////////////////--------- */
+.super_vip_container{
+  position: relative;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  width: 100%;
+  align-items: center;
+}
+.super_vip_left_bg{
+  width:40px;
+  height: 40px;
+  background-color: #FD541A;
+  border-radius: 30%;
+  margin-right: 15px;
+}
+.super_vip_left{
+  display: flex;
+  align-items: center;
+}
+
+.super_vip_left span{
+  font-weight: 900;
+  color: #222222;
+}
+.super_vip_left i{
+  position: absolute;
+  top:12px;
+ left: 12px;
+ color: white;
+ font-size: 17px;
+}
+
+.all_watch{
+  font-size: 14px;
+  color:#222222;
+  font-weight: 900;
+  margin-right: 10px;
+}
+
+.less{
+    width: 36px;
+    height: 36px;
+    border: 1px solid #D1D5DB;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1px;
+    background-color: white;
+    cursor: auto;
+    padding: 12px;
 }
