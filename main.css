@@ -91,9 +91,30 @@
   }
 }
 
-.search{
-    position: relative;
-    display: flex;
-    
+.search {
+  position: relative;
+  display: flex;
+}
+.searchbar {
+  position: relative;
+  width: 100%;
+}
+.searchbar_input {
+  width: 100%;
+  outline: none;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(197, 186, 186);
+  border-radius: 1rem;
+  padding: 16px 16px 16px 40px;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
 
+@media (min-width: 768px) {
+  .searchbar_input {
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 1.25rem;
+  }
 }
