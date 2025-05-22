@@ -6,8 +6,9 @@
 
 body {
   width: 100%;
-  max-width: 1920px;
+  max-width: 1905px;
   height: 100vh;
+ 
 }
 header {
   position: sticky;
@@ -152,3 +153,4 @@ header {
 .login:hover {
   background-color: #f3f4f6;
 }
+
