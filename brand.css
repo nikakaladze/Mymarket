@@ -1,0 +1,28 @@
+.brand_collection_container {
+  margin-top: 1.5rem;
+  padding-right: 10px;
+}
+
+@media (min-width: 768px) {
+  .brand_collection_container {
+    margin-top: 2.5rem;
+  }
+}
+
+.circle img {
+  height: 40px;
+  width: 60px;
+  object-fit: contain;
+  transition: all 0.3s ease;
+}
+
+.circle {
+    display: flex;
+    height: 88px;
+    width: 88px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid #F2F3F6;
+    background-color: #ffffff;
+}

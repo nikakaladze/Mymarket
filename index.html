@@ -1,80 +1,363 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="brand.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="header.css" />
-  <link rel="stylesheet" href="main.css" />
-</head>
-
-<body>
-  <header>
-    <div class="flex-container">
-      <div class="flex items-center">
-        <p>Mymarket.ge</p>
-        <div class="all-category">ყველა კატეგორია</div>
-      </div>
-      <div class="flex items-center"></div>
-      <div class="responsive-flex">
-        <div class="orange_btn">+ დამატება</div>
-        <div class="icons">
-          <li class="icons-item"><i class="fa-solid fa-envelope"></i></li>
-          <li class="icons-item"><i class="fa-solid fa-heart"></i></li>
-          <li class="icons-item">
-            <i class="fa-solid fa-cart-shopping"></i>
-          </li>
+  <body>
+    <header>
+      <div class="flex-container">
+        <div class="flex items-center">
+          <p>Mymarket.ge</p>
+          <div class="all-category">ყველა კატეგორია</div>
         </div>
-        <div class="auth">
-          <button class="login">შესვლა</button>
+        <div class="flex items-center"></div>
+        <div class="responsive-flex">
+          <div class="orange_btn">+ დამატება</div>
+          <div class="icons">
+            <li class="icons-item"><i class="fa-solid fa-envelope"></i></li>
+            <li class="icons-item"><i class="fa-solid fa-heart"></i></li>
+            <li class="icons-item">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </li>
+          </div>
+          <div class="auth">
+            <button class="login">შესვლა</button>
+          </div>
         </div>
       </div>
-    </div>
-  </header>
-  <main>
-    <div class="custom_help">
-      <div class="custom_help_container">
-        <div class="custom_help_container_margin_auto">
+    </header>
+    <main>
+      <div class="custom_help">
+        <div class="custom_help_container">
           <div class="custom_help_container_margin_auto">
-            <p class="custom_help_content">მეორადი განვადებით</p>
-            <p class="custom_help_content">Trade In</p>
-            <p class="custom_help_content">მაღაზიები</p>
-            <p class="custom_help_content">ფასდაკლებული</p>
-          </div>
-          <div class="right_side_custom_help">
-            <p class="custom_help_content">გახსენი მაღაზია</p>
-            <p class="custom_help_content">დახმარება</p>
-            <p class="custom_help_content">ბლოგი</p>
-            <p class="custom_help_content">კონტაქტი</p>
+            <div class="custom_help_container_margin_auto">
+              <p class="custom_help_content">მეორადი განვადებით</p>
+              <p class="custom_help_content">Trade In</p>
+              <p class="custom_help_content">მაღაზიები</p>
+              <p class="custom_help_content">ფასდაკლებული</p>
+            </div>
+            <div class="right_side_custom_help">
+              <p class="custom_help_content">გახსენი მაღაზია</p>
+              <p class="custom_help_content">დახმარება</p>
+              <p class="custom_help_content">ბლოგი</p>
+              <p class="custom_help_content">კონტაქტი</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="padding_content">
-      <div class="searchbar_container">
-        <form class="search" autocomplete="off" role="form">
-          <div class="searchbar">
-            <input type="text" name="searchValue" placeholder="ჩაწერე საძიებო სიტყვა" class="searchbar_input" />
-          </div>
-          <div class="detail_filter">
-            <i class="fa-solid fa-sliders"></i>
-            <span>დეტალური ფილტრები</span>
-          </div>
-          <button class="search_btn">
-            <i class="fa-solid fa-magnifying-glass"></i><span>ძებნა</span>
-          </button>
-        </form>
+      <div class="padding_content">
+        <div class="searchbar_container">
+          <form class="search" autocomplete="off" role="form">
+            <div class="searchbar">
+              <input
+                type="text"
+                name="searchValue"
+                placeholder="ჩაწერე საძიებო სიტყვა"
+                class="searchbar_input"
+              />
+            </div>
+            <div class="detail_filter">
+              <i class="fa-solid fa-sliders"></i>
+              <span>დეტალური ფილტრები</span>
+            </div>
+            <button class="search_btn">
+              <i class="fa-solid fa-magnifying-glass"></i><span>ძებნა</span>
+            </button>
+          </form>
+        </div>
       </div>
+      <!-- images -->
+
+      <div class="items_container">
+        <div class="all_category">
+          <i class="fa-solid fa-bars"></i>
+          <span>ყველა კატეგორია</span>
+        </div>
+
+        <div class="relative">
+          <img
+            src="https://static.my.ge/mymarket/sections/tabs/images/559.jpg"
+            alt="category"
+            fallback="https://new-front.mymarket.ge/category-card-fallback.png"
+          />
+          <span>მეორადი განვადებით</span>
+        </div>
+
+        <div class="relative">
+          <img
+            src="https://static.my.ge/mymarket/sections/tabs/images/520.jpg"
+            alt="category"
+            fallback="https://new-front.mymarket.ge/category-card-fallback.png"
+            id="small"
+          />
+          <span>ფასდაკლებული</span>
+        </div>
+
+        <div class="relative">
+          <img
+            src="https://static.my.ge/mymarket/sections/tabs/images/563.jpg"
+            alt="category"
+            fallback="https://new-front.mymarket.ge/category-card-fallback.png"
+            id="small"
+          />
+          <span>სათამაშო კონსოლი</span>
+        </div>
+
+        <div class="relative">
+          <img
+            src="https://static.my.ge/mymarket/sections/tabs/images/590.jpg"
+            alt="category"
+            fallback="https://new-front.mymarket.ge/category-card-fallback.png"
+          />
+          <span
+            >ხელოვნება და საკოლექციო <br />
+            ნივთები</span
+          >
+        </div>
+
+        <div class="relative">
+          <img
+            src="https://static.my.ge/mymarket/sections/tabs/images/564.jpg"
+            alt="category"
+            class="h-[100px] w-[180px] transition-all md:hover:scale-105"
+            fallback="https://new-front.mymarket.ge/category-card-fallback.png"
+            id="small"
+          />
+          <span>დესკტოპ კომპიუტერი</span>
+        </div>
+
+        <div class="relative">
+          <img
+            src="https://static.my.ge/mymarket/sections/tabs/images/578.jpg"
+            alt="category"
+            fallback="https://new-front.mymarket.ge/category-card-fallback.png"
+          />
+          <span>ლაშქრობა და ტურიზმი</span>
+        </div>
+        <div class="relative">
+          <img
+            src="https://static.my.ge/mymarket/sections/tabs/images/517.jpg"
+            alt="category"
+            fallback="https://new-front.mymarket.ge/category-card-fallback.png"
+            id="small"
+          />
+          <span>კომპიუტერის ნაწილები</span>
+        </div>
+
+        <div class="relative">
+          <img
+            src="https://static.my.ge/mymarket/sections/tabs/images/587.jpg"
+            alt="category"
+            fallback="https://new-front.mymarket.ge/category-card-fallback.png"
+            id="small"
+          />
+          <span>მობილური ტელეფონი</span>
+        </div>
+
+        <div class="relative">
+          <img
+            src="https://static.my.ge/mymarket/sections/tabs/images/560.jpg"
+            alt="category"
+            fallback="https://new-front.mymarket.ge/category-card-fallback.png"
+          />
+          <span>მსხვილი საოჯახო ტექნიკა</span>
+        </div>
+
+        <div class="relative">
+          <img
+            src="https://static.my.ge/mymarket/sections/tabs/images/561.jpg"
+            alt="category"
+            fallback="https://new-front.mymarket.ge/category-card-fallback.png"
+            id="small"
+          />
+          <span>ნოუთბუქი</span>
+        </div>
+
+        <div class="relative">
+          <img
+            src="https://static.my.ge/mymarket/sections/tabs/images/594.jpg"
+            alt="category"
+            fallback="https://new-front.mymarket.ge/category-card-fallback.png"
+            id="small"
+          />
+          <span>სერვისები</span>
+        </div>
+
+        <div class="relative">
+          <img
+            src="https://static.my.ge/mymarket/sections/tabs/images/566.jpg"
+            alt="category"
+            fallback="https://new-front.mymarket.ge/category-card-fallback.png"
+          />
+          <span>სამზარეულოს ტექნიკა</span>
+        </div>
+
+        <div class="relative">
+          <img
+            src="https://static.my.ge/mymarket/sections/tabs/images/562.jpg"
+            alt="category"
+            fallback="https://new-front.mymarket.ge/category-card-fallback.png"
+            id="small"
+          />
+          <span>ველოსიპედი</span>
+        </div>
+
+        <div class="relative">
+          <img
+            src="https://static.my.ge/mymarket/sections/tabs/images/571.jpg"
+            alt="category"
+            fallback="https://new-front.mymarket.ge/category-card-fallback.png"
+            id="small"
+          />
+          <span>საათი</span>
+        </div>
+
+        <div class="relative">
+          <img
+            src="https://static.my.ge/mymarket/sections/tabs/images/522.jpg"
+            alt="category"
+            fallback="https://new-front.mymarket.ge/category-card-fallback.png"
+          />
+          <span>სავარჯიშო ინვენტარი</span>
+        </div>
+
+        <!-- //// -->
+
+        <div class="brand_collection_container">
+          <div class="brand_wrapper">
+            <div class="circle">
+              <img
+                alt="392"
+                loading="lazy"
+                src="https://static.my.ge/mymarket/sections/tabs/images/392.jpg"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="brand_collection_container">
+          <div class="brand_wrapper">
+            <div class="circle">
+              <img
+                alt="393"
+                loading="lazy"
+                src="https://static.my.ge/mymarket/sections/tabs/images/393.jpg"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="brand_collection_container">
+          <div class="brand_wrapper">
+            <div class="circle">
+              <img
+                alt="394"
+                loading="lazy"
+                src="https://static.my.ge/mymarket/sections/tabs/images/394.jpg"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="brand_collection_container">
+          <div class="brand_wrapper">
+            <div class="circle">
+              <img
+                alt="396"
+                loading="lazy"
+                src="https://static.my.ge/mymarket/sections/tabs/images/396.jpg"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="brand_collection_container">
+          <div class="brand_wrapper">
+            <div class="circle">
+              <img alt="398" loading="lazy"
+                src="https://static.my.ge/mymarket/sections/tabs/images/398.jpg" >
+            </div>
+          </div>
+        </div>
+
+        <div class="brand_collection_container">
+          <div class="brand_wrapper">
+            <div class="circle">
+              <img alt="400" loading="lazy" 
+                src="https://static.my.ge/mymarket/sections/tabs/images/400.jpg" >
+            </div>
+          </div>
+        </div>
+
+        <div class="brand_collection_container">
+          <div class="brand_wrapper">
+            <div class="circle">
+              <img alt="401" loading="lazy"
+                src="https://static.my.ge/mymarket/sections/tabs/images/401.jpg" >
+            </div>
+          </div>
+        </div>
+
+        <div class="brand_collection_container">
+          <div class="brand_wrapper">
+            <div class="circle">
+              <img alt="406" loading="lazy"
+                src="https://static.my.ge/mymarket/sections/tabs/images/406.jpg" >
+            </div>
+          </div>
+        </div>
+
+        <div class="brand_collection_container">
+          <div class="brand_wrapper">
+            <div class="circle">
+              <img alt="407" loading="lazy" 
+                src="https://static.my.ge/mymarket/sections/tabs/images/407.jpg" >
+            </div>
+          </div>
+        </div>
+
+        <div class="brand_collection_container">
+          <div class="brand_wrapper">
+            <div class="circle">
+              <img alt="414" loading="lazy"
+                src="https://static.my.ge/mymarket/sections/tabs/images/412.jpg" >
+            </div>
+          </div>
+        </div>
+
+        <div class="brand_collection_container">
+          <div class="brand_wrapper">
+            <div class="circle">
+              <img alt="412" loading="lazy" 
+                src="https://static.my.ge/mymarket/sections/tabs/images/414.jpg" >
+            </div>
+          </div>
+        </div>
+
+        <div class="brand_collection_container">
+          <div class="brand_wrapper">
+            <div class="circle">
+              <img alt="415" loading="lazy" 
+                src="https://static.my.ge/mymarket/sections/tabs/images/415.jpg">
+            </div>
+          </div>
+        </div>
+
+        <!-- /// -->
       </div>
-<!-- images -->
-
-        
-      
-  </main>
-</body>
-
+    </main>
+  </body>
 </html>
