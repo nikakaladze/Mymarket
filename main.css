@@ -67,3 +67,33 @@
 .custom_help_content:hover {
   color: orange;
 }
+.right_side_custom_help {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* /////Search-Bar */
+
+.padding_content {
+  padding-inline: 16px;
+}
+
+.searchbar_container {
+  margin-top: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .searchbar_container {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+  }
+}
+
+.search{
+    position: relative;
+    display: flex;
+    
+
+}
