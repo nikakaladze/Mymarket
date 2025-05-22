@@ -1,0 +1,30 @@
+.cards_container{
+    width: 100%;
+    margin-top: 24px;
+    display: flex;
+    
+}
+
+.card{
+    width: 262px;
+    height: 190px;
+    margin-right: 20px;
+}
+
+.card img{
+    border-radius: 16px;
+}
+
+.card p{
+    margin-top: 8px;
+    margin-bottom: 12px;
+    /* letter-spacing: 0.8px; */
+    color: #222222; 
+}
+
+.card span{
+    font-weight: 900;
+}
+.second{
+    margin-top: 100px;
+}
